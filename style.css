@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdf9f6;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: rgba(0, 217, 255, 0.11);
+    border-radius: 70px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.child .img {
+    height: 70px;
+    width: 70px;
+    background: hwb(0 73% 15% / 0.301);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.child .img img {
+    height: 50px;
+    width: 50px;
+
+}
